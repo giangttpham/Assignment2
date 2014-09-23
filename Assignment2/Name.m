@@ -2,7 +2,7 @@
 //  Name.m
 //  Assignment2
 //
-//  Created by Tra` Beo' on 9/7/14.
+//  Created by Giang Pham on 9/7/14.
 //  Copyright (c) 2014 Giang Pham. All rights reserved.
 //
 
@@ -12,11 +12,13 @@
 @synthesize firstName;
 @synthesize lastName;
 
+//create a new Name object with given First Name and Last Name
 + (id) firstName:(NSString *)firstName lastName:(NSString *)lastName
 {
     return [[self alloc] initWithFirstName:firstName lastName:lastName];
 }
 
+//function used to set the instance variables for new instance
 - (id) initWithFirstName:(NSString *)inputFirstName lastName:(NSString *)inputLastName
 {
     if (self = [super init])

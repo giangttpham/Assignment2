@@ -12,6 +12,7 @@
 		ED26A59C19BA58F0005442DF /* NSString+getPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = ED26A59B19BA58F0005442DF /* NSString+getPhoneNumber.m */; };
 		ED26A59F19BD59C2005442DF /* Name.m in Sources */ = {isa = PBXBuildFile; fileRef = ED26A59E19BD59C2005442DF /* Name.m */; };
 		ED26A5A219BE163F005442DF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ED26A5A119BE163F005442DF /* Person.m */; };
+		ED26A5A519BE7487005442DF /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = ED26A5A419BE7487005442DF /* ContactList.m */; };
 		ED63D56C19B55F84003FC32B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED63D56B19B55F84003FC32B /* Foundation.framework */; };
 		ED63D56F19B55F84003FC32B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED63D56E19B55F84003FC32B /* main.m */; };
 		ED63D57319B55F84003FC32B /* Assignment2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ED63D57219B55F84003FC32B /* Assignment2.1 */; };
@@ -41,6 +42,8 @@
 		ED26A59E19BD59C2005442DF /* Name.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Name.m; sourceTree = "<group>"; };
 		ED26A5A019BE163F005442DF /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		ED26A5A119BE163F005442DF /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		ED26A5A319BE7487005442DF /* ContactList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
+		ED26A5A419BE7487005442DF /* ContactList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
 		ED63D56819B55F84003FC32B /* Assignment2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment2; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED63D56B19B55F84003FC32B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ED63D56E19B55F84003FC32B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				ED26A59E19BD59C2005442DF /* Name.m */,
 				ED26A5A019BE163F005442DF /* Person.h */,
 				ED26A5A119BE163F005442DF /* Person.m */,
+				ED26A5A319BE7487005442DF /* ContactList.h */,
+				ED26A5A419BE7487005442DF /* ContactList.m */,
 			);
 			path = Assignment2;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			files = (
 				ED26A5A219BE163F005442DF /* Person.m in Sources */,
 				ED26A59F19BD59C2005442DF /* Name.m in Sources */,
+				ED26A5A519BE7487005442DF /* ContactList.m in Sources */,
 				ED26A59619B6A578005442DF /* NSString+formatPhoneNumber.m in Sources */,
 				ED26A59919B7BBBF005442DF /* PhoneNumber.m in Sources */,
 				ED26A59C19BA58F0005442DF /* NSString+getPhoneNumber.m in Sources */,

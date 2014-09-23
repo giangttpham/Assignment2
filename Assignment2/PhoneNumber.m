@@ -2,37 +2,36 @@
 //  PhoneNumber.m
 //  Assignment2
 //
-//  Created by Tra` Beo' on 9/3/14.
+//  Created by Giang Pham on 9/3/14.
 //  Copyright (c) 2014 Giang Pham. All rights reserved.
 //
 
 #import "PhoneNumber.h"
 
 @implementation PhoneNumber
-
 @synthesize type;
 @synthesize number;
 
+//create a new PhoneNumber object with given type and number
 + (id) type: (NSString *)type
      number:(NSString*)number
 {
     return [[self alloc] initWithType:type number:number];
-
 }
 
-
+//set the variables for the new PhoneNumber instance
 - (id) initWithType:(NSString *)phoneType
                number:(NSString*)phoneNumber
 {
     if (self = [super init])
     {
         type = phoneType;
-        number = phoneNumber;
+        number = [phoneNumber phoneFormat];
     }
-    
     return self;
 }
 
+//return the phone number in proper format ###-###-####
 - (NSString *) formatPhoneNumber
 {
     return [number phoneFormat];
@@ -44,6 +43,7 @@
         return true;
     return false;
 }
+
 - (BOOL) isLocal
 {
     NSString * firstThreeDigits = [number substringToIndex:3];
@@ -54,11 +54,8 @@
 
 - (NSString *) description
 {
-    
     NSString * phoneDescription;
-    
     phoneDescription = [NSString stringWithFormat:@"%@: %@",type, [self formatPhoneNumber]];
-    
     return phoneDescription;
 }
 
