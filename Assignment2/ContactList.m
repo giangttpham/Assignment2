@@ -5,7 +5,7 @@
 //  Created by Giang Pham on 9/8/14.
 //  Copyright (c) 2014 Giang Pham. All rights reserved.
 //
-
+//  Contact List implementation
 #import "ContactList.h"
 
 @implementation ContactList
